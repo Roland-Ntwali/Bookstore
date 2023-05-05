@@ -11,7 +11,7 @@
   
   <br/>
 
-  <h3><b></b></h3>
+  <h3><b>Bookstore</b></h3>
 
 </div>
 
@@ -29,7 +29,6 @@
     - [Setup](#setup)
     - [Install](#install)
     - [Run tests](#run-tests)
-  - [👥 Mugisha.I , ](#-mugishai--)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -165,11 +164,11 @@ To run tests, run the following command:
 
 <!-- AUTHORS -->
 
-## 👥 Mugisha.I , <a name="authors"></a>
+## 👥 Ntwali Roland, <a name="authors"></a>
 
 
 
-👤 **Mugisha.I**
+👤 **Ntwali Roland**
 
 - GitHub: [@Roland-Ntwali](https://github.com/Roland-Ntwali)
 
