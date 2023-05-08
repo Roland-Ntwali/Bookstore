@@ -23,12 +23,31 @@
   - [📖 BOOKSTORE ](#-bookstore-)
   - [🛠 Built With  VSCode  ](#-built-with--vscode--)
     - [HTML/CSS, javascript, Webpack, React and Redux ](#htmlcss-javascript-webpack-react-and-redux-)
+  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Run tests](#run-tests)
-  - [� Mugisha.I , ](#-mugishai--)
+  - [👥 Ntwali Roland, ](#-ntwali-roland-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
+  - [📝 License ](#-license-)
+>>>>>>> 8b2a3c06b8ffa58cdd7b053540dfeb3dd0b160db
+- [📗 Table of Contents](#-table-of-contents)
+  - [📖 BOOKSTORE ](#-bookstore-)
+  - [🛠 Built With  VSCode  ](#-built-with--vscode--)
+    - [HTML/CSS, javascript, Webpack, React and Redux ](#htmlcss-javascript-webpack-react-and-redux-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Run tests](#run-tests)
+  - [👥 Ntwali Roland, ](#-ntwali-roland-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -83,6 +102,17 @@ This is a website that allow users to add and remove books, it also provides boo
 </details>
 
 
+
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+  
+ ## 🚀 Live Demo <a name="live-demo"></a> 
+
+ Coming soon .. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,11 +183,11 @@ To run tests, run the following command:
 
 <!-- AUTHORS -->
 
-## 👥 Mugisha.I , <a name="authors"></a>
+## 👥 Ntwali Roland, <a name="authors"></a>
 
 
 
-👤 **Mugisha.I**
+👤 **Ntwali Roland**
 
 - GitHub: [@Roland-Ntwali](https://github.com/Roland-Ntwali)
 
