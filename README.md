@@ -36,25 +36,6 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
   - [📝 License ](#-license-)
->>>>>>> 8b2a3c06b8ffa58cdd7b053540dfeb3dd0b160db
-- [📗 Table of Contents](#-table-of-contents)
-  - [📖 BOOKSTORE ](#-bookstore-)
-  - [🛠 Built With  VSCode  ](#-built-with--vscode--)
-    - [HTML/CSS, javascript, Webpack, React and Redux ](#htmlcss-javascript-webpack-react-and-redux-)
-  - [🚀 Live Demo ](#-live-demo-)
-  - [💻 Getting Started ](#-getting-started-)
-    - [Prerequisites](#prerequisites)
-    - [Setup](#setup)
-    - [Install](#install)
-    - [Run tests](#run-tests)
-  - [👥 Ntwali Roland, ](#-ntwali-roland-)
-  - [🔭 Future Features ](#-future-features-)
-  - [🤝 Contributing ](#-contributing-)
-  - [⭐️ Show your support ](#️-show-your-support-)
-  - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
-  - [📝 License ](#-license-)
-
 
 
 ## 📖 BOOKSTORE <a name="about-project"></a>
