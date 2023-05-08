@@ -11,7 +11,7 @@
   
   <br/>
 
-  <h3><b></b></h3>
+  <h3><b>Bookstore</b></h3>
 
 </div>
 
@@ -23,13 +23,12 @@
   - [📖 BOOKSTORE ](#-bookstore-)
   - [🛠 Built With  VSCode  ](#-built-with--vscode--)
     - [HTML/CSS, javascript, Webpack, React and Redux ](#htmlcss-javascript-webpack-react-and-redux-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
     - [Install](#install)
     - [Run tests](#run-tests)
-  - [👥 Mugisha.I , ](#-mugishai--)
+  - [� Mugisha.I , ](#-mugishai--)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -83,17 +82,6 @@ This is a website that allow users to add and remove books, it also provides boo
   </ul>
 </details>
 
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-  
- ## 🚀 Live Demo <a name="live-demo"></a> 
-
- [Live Demo Link](https://github.com/Roland-Ntwali/Bookstore)  
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
