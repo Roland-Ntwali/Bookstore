@@ -1,22 +1,30 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+/* eslint-disable react/prop-types */
+import { useDispatch } from 'react-redux';
+import { removeBook } from '../redux/books/bookSlice';
 
-const Books = (props) => {
-  const { title, author } = props;
+const CreateBook = ({ title, author, id }) => {
+  const dispatch = useDispatch();
+
+  const handleRemoveClick = () => {
+    dispatch(removeBook({ id }));
+  };
+
   return (
-    <div>
-      <ul>
-        <li>{title}</li>
-        <li>{author}</li>
-      </ul>
-      <button type="button">Remove</button>
+    <div className="books_wrapper">
+      <div className="books">
+        <p>{title}</p>
+        <p>{author}</p>
+      </div>
+      {title && (
+      <div className="buttons">
+        <button type="button">comments</button>
+        <button type="button" onClick={handleRemoveClick}>
+          remove
+        </button>
+      </div>
+      )}
     </div>
   );
 };
 
-Books.propTypes = {
-  title: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired,
-};
-
-export default Books;
+export default CreateBook;

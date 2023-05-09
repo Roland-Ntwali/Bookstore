@@ -7,3 +7,10 @@
   display: flex;
   gap: 20px;
 }
+
+.books_wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: 4rem;
+}
