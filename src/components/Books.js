@@ -17,9 +17,9 @@ const CreateBook = ({ title, author, id }) => {
       </div>
       {title && (
       <div className="buttons">
-        <button type="button">comments</button>
+        <button type="button">Comments</button>
         <button type="button" onClick={handleRemoveClick}>
-          remove
+          Remove
         </button>
       </div>
       )}
