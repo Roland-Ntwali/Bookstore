@@ -1,14 +1,14 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Header from './components/header';
-import Booklist from './components/Booklist';
+import Renderbooks from './components/Render';
 import Categories from './components/Categories';
 
 const App = () => (
   <div>
     <Header />
     <Routes>
-      <Route path="/" element={<Booklist />} />
+      <Route path="/" element={<Renderbooks />} />
       <Route path="/categories" element={<Categories />} />
     </Routes>
   </div>
