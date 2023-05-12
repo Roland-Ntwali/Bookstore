@@ -28,64 +28,81 @@ code {
 }
 
 .header {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   background-color: #fff;
-  border-bottom: 1px solid  #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.813rem 6.25rem;
 }
 
 .header h1 {
   color: #0290ff;
 }
 
-.BooksH {
-  height: 1rem;
-  font-size: 0.813rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 1.9px;
+.books {
   color: #121212;
   text-decoration: none;
 }
 
-.CategoriesH {
-  height: 1rem;
-  opacity: 0.5;
-  font-size: 0.813rem;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: 1.9px;
-  color: #121212;
+.categories {
+  color: rgba(71, 70, 70, 0.579);
   text-decoration: none;
 }
 
-.bookname {
-  height: 1.813rem;
-  font-size: 1.375rem;
-  font-weight: bold;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: -0.2px;
-  color: #121212;
+.icon {
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 50px;
+  color: #0290ff;
+  padding: 0.775rem;
 }
 
-.bookauthor {
-  height: 1.188rem;
-  font-size: 0.875rem;
-  font-weight: 300;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.9rem;
+}
+
+.books_main_container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 1.813rem 6.25rem;
+}
+
+.books_container {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 4rem;
+  width: 100%;
+}
+
+.books_wrapper,
+.main_books li {
+  display: flex;
+  flex-direction: column;
+}
+
+.books_wrapper h5 {
+  color: rgba(0, 0, 0, 0.403);
+  margin-bottom: 7px;
+}
+
+.main_books li {
+  list-style: none;
+}
+
+.books p {
   color: #4386bf;
+  margin-bottom: 12px;
 }
 
 .button {
@@ -105,18 +122,6 @@ code {
   display: flex;
 }
 
-.books_wrapper {
-  height: 10.625rem;
-  margin: 2.313rem 6.25rem 0;
-  padding: 2rem 9.188rem 1.625rem 1.688rem;
-  border-radius: 4px;
-  border: solid 1px #e8e8e8;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  gap: 43px;
-}
-
 .buttons :not(:last-child)::after {
   content: "";
   top: 50%;
@@ -126,30 +131,67 @@ code {
   padding-left: 35px;
 }
 
-.new_book {
+.progress_container {
+  align-items: center;
   display: flex;
+  gap: 22px;
   justify-content: center;
-  flex-direction: row;
-  padding: 30px;
 }
 
-.input {
-  width: 250px;
-  border: solid 1px #e8e8e8;
-  border-radius: 3px;
-  padding: 6px 12px;
-  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+.score_wrapper {
+  display: flex;
 }
 
-form {
+.progress_bar {
+  align-items: center;
+  border-right: 1px solid #c8c6c6;
+  display: flex;
+  gap: 1rem;
+  height: 100%;
+  padding-right: 6rem;
+}
+
+.chapter_button button {
+  background-color: #0290ff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 7px 28px;
+}
+
+.chapter_wrapper h2 {
+  color: rgba(0, 0, 0, 0.398);
+  font-size: 0.813rem;
+}
+
+.new_book {
+  padding: 1.813rem 6.25rem;
+}
+
+.new_book h2 {
+  color: #888;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.form {
   display: flex;
   gap: 24px;
 }
 
 .add_button {
-  border: none;
-  padding: 12px 40px;
-  border-radius: 3px;
   background-color: #0290ff;
-  color: white;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  padding: 12px 40px;
+}
+
+.input {
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  box-shadow: 0 6px 24px 0 rgba(0, 0, 0, 0.05), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  padding: 6px 12px;
+  width: 450px;
 }
