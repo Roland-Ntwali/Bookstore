@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './header.css';
+import '../styles.css';
 
 const Header = () => (
   <div className="header">
     <h1>Bookstore CMS</h1>
-    <Link to="/">Books</Link>
-    <Link to="/categories">Categories</Link>
+    <Link className="BooksH" to="/">Books</Link>
+    <Link className="CategoriesH" to="/categories">Categories</Link>
   </div>
 );
 

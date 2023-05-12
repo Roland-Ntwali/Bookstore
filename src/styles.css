@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  border-bottom: 1px solid  #e8e8e8;
+}
+
+.header h1 {
+  color: #0290ff;
+}
+
+.BooksH {
+  height: 1rem;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+  text-decoration: none;
+}
+
+.CategoriesH {
+  height: 1rem;
+  opacity: 0.5;
+  font-size: 0.813rem;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 1.9px;
+  color: #121212;
+  text-decoration: none;
+}
+
+.bookname {
+  height: 1.813rem;
+  font-size: 1.375rem;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.2px;
+  color: #121212;
+}
+
+.bookauthor {
+  height: 1.188rem;
+  font-size: 0.875rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+}
+
+.button {
+  height: 1.188rem;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4386bf;
+  background: none;
+  border: none;
+}
+
+.buttons {
+  gap: 30px;
+  display: flex;
+}
+
+.books_wrapper {
+  height: 10.625rem;
+  margin: 2.313rem 6.25rem 0;
+  padding: 2rem 9.188rem 1.625rem 1.688rem;
+  border-radius: 4px;
+  border: solid 1px #e8e8e8;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 43px;
+}
+
+.buttons :not(:last-child)::after {
+  content: "";
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  height: 15px;
+  border-right: solid 1px #e8e8e8;
+  padding-left: 35px;
+}
+
+.new_book {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 30px;
+}
+
+.input {
+  width: 250px;
+  border: solid 1px #e8e8e8;
+  border-radius: 3px;
+  padding: 6px 12px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 6px 24px 0, rgba(0, 0, 0, 0.08) 0 0 0 1px;
+}
+
+form {
+  display: flex;
+  gap: 24px;
+}
+
+.add_button {
+  border: none;
+  padding: 12px 40px;
+  border-radius: 3px;
+  background-color: #0290ff;
+  color: white;
+}
