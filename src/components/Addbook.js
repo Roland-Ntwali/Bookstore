@@ -1,7 +1,8 @@
+import { nanoid } from '@reduxjs/toolkit';
 import React, { useState } from 'react';
-import './Addbook.css';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../redux/books/bookSlice';
+import { postBooks } from '../redux/books/bookSlice';
+import '../styles.css';
 import Books from './Books';
 
 const Addbook = () => {
@@ -11,7 +12,16 @@ const Addbook = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(addBook({ title, author }));
+    if (title.trim() === '' || author.trim() === '') {
+      // If either the title or author is empty, do not dispatch the action
+      return;
+    }
+    dispatch(postBooks({
+      item_id: nanoid(),
+      title,
+      author,
+      category: null,
+    }));
     setTitle('');
     setAuthor('');
   };
@@ -19,21 +29,25 @@ const Addbook = () => {
   return (
     <>
       <Books />
+      <hr className="line" />
       <div className="new_book">
-        <form onSubmit={handleSubmit}>
+        <h2>ADD NEW BOOK</h2>
+        <form className="form" onSubmit={handleSubmit}>
           <input
+            className="input"
             type="text"
             placeholder="title"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
           />
           <input
+            className="input"
             type="text"
             placeholder="author"
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
           />
-          <button type="submit">Add Book</button>
+          <button className="add_button" type="submit">Add Book</button>
         </form>
       </div>
     </>
